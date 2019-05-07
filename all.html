@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+  小程序上手
+  
+
+  </title>
+  <meta name="author" content="">
+  <meta name="description" content="小程序上手">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="asset/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="atom.xml" rel="alternate" title="小程序上手" type="application/atom+xml">
+  <script src="asset/js/modernizr-2.0.js"></script>
+  <script src="asset/js/jquery.min.js"></script>
+  <script src="asset/highlightjs/highlight.pack.js"></script>
+  <link href="asset/highlightjs/styles/solarized_light.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <style type="text/css">
+  .cat-children-p{ padding: 6px 0px;}
+  .hljs{background: none;}
+  </style>
+  <script type="text/javascript">
+  var isAddSildbar = true;
+  </script>
+  <script src="asset/js/octopress.js" type="text/javascript"></script>
+</head>
+<script type="text/javascript">
+//链接新开窗口
+function addBlankTargetForLinks () {
+  $('a[href^="http"]').each(function(){
+      $(this).attr('target', '_blank');
+  });
+}
+$(document).ready(function(event) {
+  addBlankTargetForLinks();
+});
+</script>
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="index.html">小程序上手</a></h1>
+  
+    <h2>小程序上手</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+
+  <li id=""><a target="self" href="index.html">Home</a></li>
+
+  <li id=""><a target="_self" href="archives.html">Archives</a></li>
+
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content"> 
+<div class="blog-index">
+
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="15572089105221.html">小程序开发准备</a></h1>
+			<p class="meta"><time datetime="2019-05-07T14:01:50+08:00" 
+			pubdate data-updated="true">2019/5/7</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<h3 id="toc_0">1.1 注册开发者帐号</h3>
+
+<p>注册开发者帐号<br/>
+<a href="https://mp.weixin.qq.com/wxopen/waregister?action=step1">https://mp.weixin.qq.com/wxopen/waregister?action=step1</a></p>
+
+<h3 id="toc_1">2.1下载开发者工具</h3>
+
+<p>下载地址</p>
+
+<p><a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=19041222">https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=19041222</a></p>
+
+<p>选择最新的稳定版本进行下载。</p>
+
+<h3 id="toc_2">2.2 安装</h3>
+
+<p>打开安装文件开始安装。</p>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190414223147.png-wardo" alt="image"/></p>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190414223350.png-wardo" alt="image"/></p>
+
+<p>等待安装完成。</p>
+
+<h3 id="toc_3">3.1 登录开发者工具</h3>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190414224225.png-wardo" alt="image"/></p>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190414224403.png" alt="image"/></p>
+
+<p>至此已准备好小程序开发所需的帐号以及开发者工具。</p>
+
+
+		</div>
+
+		
+
+	</article>
+ 
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="15572089698783.html">第一个小程序</a></h1>
+			<p class="meta"><time datetime="2019-05-07T14:02:49+08:00" 
+			pubdate data-updated="true">2019/5/7</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<h3 id="toc_0">1.1创建第一个小程序</h3>
+
+<p>新建项目选择小程序项目，选择代码存放的硬盘路径，填入刚刚申请到的小程序的 AppID，给你的项目起一个好听的名字，最后，勾选 &quot;创建 QuickStart 项目&quot;（如有）。</p>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190414225359.png" alt="image"/></p>
+
+<h3 id="toc_1">2小程序代码构成</h3>
+
+<p>这个项目里边生成了不同类型的文件:</p>
+
+<ol>
+<li>.json 后缀的 JSON 配置文件</li>
+<li>.wxml 后缀的 WXML 模板文件</li>
+<li>.wxss 后缀的 WXSS 样式文件</li>
+<li>.js 后缀的 JS 脚本逻辑文件</li>
+</ol>
+
+<h3 id="toc_2">2.1 JSON配置</h3>
+
+<p>app.json 是当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等。QuickStart 项目里边的 app.json 配置内容如下：</p>
+
+<pre><code class="language-text">{
+  &quot;pages&quot;: [&quot;pages/index/index&quot;, &quot;pages/logs/logs&quot;],
+  &quot;window&quot;: {
+    &quot;backgroundTextStyle&quot;: &quot;light&quot;,
+    &quot;navigationBarBackgroundColor&quot;: &quot;#fff&quot;,
+    &quot;navigationBarTitleText&quot;: &quot;WeChat&quot;,
+    &quot;navigationBarTextStyle&quot;: &quot;black&quot;
+  }
+}
+</code></pre>
+
+<h3 id="toc_3">2.1 WXML</h3>
+
+<p>从事过网页编程的人知道，网页编程采用的是 HTML + CSS + JS 这样的组合，其中 HTML 是用来描述当前这个页面的结构，CSS 用来描述页面的样子，JS 通常是用来处理这个页面和用户的交互。</p>
+
+<p>同样道理，在小程序中也有同样的角色，其中 WXML 充当的就是类似 HTML 的角色。打开 pages/index/index.wxml，你会看到以下的内容:</p>
+
+<pre><code class="language-text">&lt;view class=&quot;container&quot;&gt;
+  &lt;view class=&quot;userinfo&quot;&gt;
+    &lt;button wx:if=&quot;{{!hasUserInfo &amp;&amp; canIUse}}&quot;&gt;获取头像昵称&lt;/button&gt;
+    &lt;block wx:else&gt;
+      &lt;image src=&quot;{{userInfo.avatarUrl}}&quot; background-size=&quot;cover&quot;&gt;&lt;/image&gt;
+      &lt;text class=&quot;userinfo-nickname&quot;&gt;{{userInfo.nickName}}&lt;/text&gt;
+    &lt;/block&gt;
+  &lt;/view&gt;
+  &lt;view class=&quot;usermotto&quot;&gt;
+    &lt;text class=&quot;user-motto&quot;&gt;{{motto}}&lt;/text&gt;
+  &lt;/view&gt;
+&lt;/view&gt;
+</code></pre>
+
+<h3 id="toc_4">2.2 WXSS 样式</h3>
+
+<p>WXSS 具有 CSS 大部分的特性，小程序在 WXSS 也做了一些扩充和修改。</p>
+
+<ol>
+<li><p>新增了尺寸单位。在写 CSS 样式时，开发者需要考虑到手机设备的屏幕会有不同的宽度和设备像素比，采用一些技巧来换算一些像素单位。WXSS 在底层支持新的尺寸单位 rpx ，开发者可以免去换算的烦恼，只要交给小程序底层来换算即可，由于换算采用的浮点数运算，所以运算结果会和预期结果有一点点偏差。</p></li>
+<li><p>提供了全局的样式和局部样式。和前边 app.json, page.json 的概念相同，你可以写一个 app.wxss 作为全局样式，会作用于当前小程序的所有页面，局部页面样式 page.wxss 仅对当前页面生效。</p></li>
+<li><p>此外 WXSS 仅支持部分 CSS 选择器</p></li>
+</ol>
+
+<h3 id="toc_5">2.3 JS 逻辑交互</h3>
+
+<p>JS 脚本文件来处理用户的操作。</p>
+
+<pre><code class="language-text">&lt;view&gt;{{ msg }}&lt;/view&gt;
+&lt;button bindtap=&quot;clickMe&quot;&gt;点击我&lt;/button&gt;
+</code></pre>
+
+<p>点击 button 按钮的时候，我们希望把界面上 msg 显示成 &quot;Hello World&quot;，于是我们在 button 上声明一个属性: bindtap ，在 JS 文件里边声明了 clickMe 方法来响应这次点击操作：</p>
+
+<pre><code class="language-text">Page({
+  clickMe() {
+    this.setData({msg: &#39;Hello World&#39;})
+  }
+})
+</code></pre>
+
+<p>响应用户的操作就是这么简单，更详细的事件可以参考文档<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html"> WXML - 事件</a> 。</p>
+
+<p>此外你还可以在 JS 中调用小程序提供的丰富的 API，利用这些 API 可以很方便的调起微信提供的能力，例如获取用户信息、本地存储、微信支付等。在前边的 QuickStart 例子中，在 pages/index/index.js 就调用了 wx.getUserInfo 获取微信用户的头像和昵称，最后通过 setData 把获取到的信息显示到界面上。更多 API 可以参考文档 <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html">小程序的API</a> 。</p>
+
+<h3 id="toc_6">3.1 Tab</h3>
+
+<p>修改app.json，为小程序添加一个tab。</p>
+
+<pre><code class="language-text">{
+  &quot;pages&quot;:[
+    &quot;pages/index/index&quot;,
+    &quot;pages/logs/logs&quot;,
+    &quot;pages/login/login&quot;
+  ],
+  &quot;window&quot;:{
+    &quot;backgroundTextStyle&quot;:&quot;light&quot;,
+    &quot;navigationBarBackgroundColor&quot;: &quot;#fff&quot;,
+    &quot;navigationBarTitleText&quot;: &quot;WeChat&quot;,
+    &quot;navigationBarTextStyle&quot;:&quot;black&quot;
+  },
+  &quot;tabBar&quot;: {
+    &quot;color&quot;: &quot;#aaa&quot;,
+    &quot;selectedColor&quot;: &quot;#262626&quot;,
+    &quot;list&quot;: [
+      {
+        &quot;text&quot;: &quot;首页&quot;,
+        &quot;pagePath&quot;: &quot;pages/index/index&quot;,
+        &quot;iconPath&quot;: &quot;images/icon_house_alt.png&quot;,
+        &quot;selectedIconPath&quot;: &quot;images/icon_house.png&quot;
+      },
+      {
+        &quot;text&quot;: &quot;登录&quot;,
+        &quot;pagePath&quot;: &quot;pages/login/login&quot;,
+        &quot;iconPath&quot;: &quot;images/icon_documents_alt.png&quot;,
+        &quot;selectedIconPath&quot;: &quot;images/icon_documents.png&quot;
+      }
+      
+    ]
+  }
+}
+
+</code></pre>
+
+<p>在程序根目录新建图片资源文件夹，并放入所需图片文件。<br/>
+重新编译项目，将会自动生成pages/login/文件夹，并生成login.wxml，login.js，login.json，login.wxss文件</p>
+
+<h3 id="toc_7">3.2 登录页</h3>
+
+<p>分别编辑文件如下：<br/>
+login.wxml</p>
+
+<pre><code class="language-text">&lt;!--pages/login/login.wxml--&gt;
+&lt;view class=&quot;page&quot; xmlns:wx=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;view class=&quot;page__bd&quot;&gt;
+
+    &lt;view class=&quot;weui-toptips weui-toptips_warn&quot; wx:if=&quot;{{showTopTips}}&quot;&gt;{{tips}}&lt;/view&gt;
+    &lt;loading hidden=&quot;{{hide}}&quot;&gt;加载中...&lt;/loading&gt;
+
+    &lt;block wx:if=&quot;{{!isLogin}}&quot;&gt;
+      &lt;view class=&quot;weui-cells__title&quot;&gt;登录&lt;/view&gt;
+      &lt;view class=&quot;weui-cells weui-cells_after-title&quot;&gt;
+        &lt;view class=&quot;weui-cell weui-cell_input&quot;&gt;
+          &lt;view class=&quot;weui-cell__hd&quot;&gt;
+            &lt;view class=&quot;weui-label&quot;&gt;账号&lt;/view&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;weui-cell__bd&quot;&gt;
+            &lt;input class=&quot;weui-input&quot; placeholder=&quot;输入账号&quot; value=&quot;{{username}}&quot; bindinput=&quot;usernameInput&quot; /&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+        &lt;view class=&quot;weui-cell weui-cell_input&quot;&gt;
+          &lt;view class=&quot;weui-cell__hd&quot;&gt;
+            &lt;view class=&quot;weui-label&quot;&gt;密码&lt;/view&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;weui-cell__bd&quot;&gt;
+            &lt;input class=&quot;weui-input&quot; type=&quot;password&quot; placeholder=&quot;输入密码&quot; bindinput=&quot;passwordInput&quot; /&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+      &lt;/view&gt;
+      &lt;view class=&quot;weui-cells__tips&quot;&gt;请使用管理员为您分配的账号和密码进行绑定&lt;/view&gt;
+
+      &lt;view class=&quot;weui-btn-area&quot;&gt;
+        &lt;button class=&quot;weui-btn&quot; type=&quot;primary&quot; bindtap=&quot;submit&quot;&gt;确定&lt;/button&gt;
+      &lt;/view&gt;
+    &lt;/block&gt;
+
+    &lt;block wx:if=&quot;{{isLogin}}&quot;&gt;
+      &lt;view class=&quot;weui-cells__title&quot;&gt;账号信息&lt;/view&gt;
+      &lt;view class=&quot;weui-cells weui-cells_after-title&quot;&gt;
+
+        &lt;view class=&quot;weui-cell weui-cell_input&quot;&gt;
+          &lt;view class=&quot;weui-cell__hd&quot;&gt;
+            &lt;view class=&quot;weui-label&quot;&gt;工厂名称&lt;/view&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;weui-cell__bd&quot;&gt;
+            &lt;input class=&quot;weui-input&quot; disabled=&quot;true&quot; value=&quot;{{factoryName}}&quot; /&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+
+
+
+        &lt;view class=&quot;weui-cell weui-cell_input&quot;&gt;
+          &lt;view class=&quot;weui-cell__hd&quot;&gt;
+            &lt;view class=&quot;weui-label&quot;&gt;用户账号&lt;/view&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;weui-cell__bd&quot;&gt;
+            &lt;input class=&quot;weui-input&quot; disabled=&quot;true&quot; value=&quot;{{userNum}}&quot; /&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+
+        &lt;view class=&quot;weui-cell weui-cell_input&quot;&gt;
+          &lt;view class=&quot;weui-cell__hd&quot;&gt;
+            &lt;view class=&quot;weui-label&quot;&gt;用户名称&lt;/view&gt;
+          &lt;/view&gt;
+          &lt;view class=&quot;weui-cell__bd&quot;&gt;
+            &lt;input class=&quot;weui-input&quot; disabled=&quot;true&quot; value=&quot;{{userName}}&quot; /&gt;
+          &lt;/view&gt;
+        &lt;/view&gt;
+
+      &lt;/view&gt;
+      &lt;!--&lt;view class=&quot;weui-cells__tips&quot;&gt;请使用管理员为您分配的账号和密码进行登录&lt;/view&gt;--&gt;
+      &lt;view class=&quot;weui-btn-area&quot;&gt;
+        &lt;button class=&quot;weui-btn&quot; type=&quot;warn&quot; bindtap=&quot;logout&quot;&gt;退出登录&lt;/button&gt;
+
+        &lt;button class=&quot;weui-btn&quot; type=&quot;default&quot; bindtap=&quot;goBack&quot;&gt;返回&lt;/button&gt;
+      &lt;/view&gt;
+    &lt;/block&gt;
+  &lt;/view&gt;
+&lt;/view&gt;
+</code></pre>
+
+<p>login.js</p>
+
+<pre><code class="language-text">// pages/login/login.js
+var util = require(&#39;../../utils/md5.js&#39;)
+
+Page({
+  data: {
+    showTopTips: false,
+    tips: &#39;提示&#39;,
+    password: &#39;&#39;,
+    userName: &#39;&#39;,
+    userNum: &#39;&#39;,
+    factoryName: &#39;&#39;,
+    // 显示loading..
+    hide: true,
+    isLogin: false
+  },
+  onLoad: function(options) {
+
+    var isLogin = options.login
+    //控制台输出
+    console.debug(&quot;--isLogin--&quot; + isLogin)
+    if (isLogin == 1) {
+      // var shopName = wx.getStorageSync(&#39;storeName&#39;) || &#39;&#39;
+      // var shopNum = wx.getStorageSync(&#39;storeNum&#39;) || &#39;&#39;
+      var factoryName = wx.getStorageSync(&#39;factoryName&#39;) || &#39;&#39;
+      var userName = wx.getStorageSync(&#39;userName&#39;) || &#39;&#39;
+      var userNum = wx.getStorageSync(&#39;userNum&#39;) || &#39;&#39;
+      this.setData({
+        isLogin: true,
+        factoryName: factoryName,
+        userName: userName,
+        userNum: userNum
+      })
+    } else {
+      this.setData({
+        isLogin: false
+      })
+    }
+
+    // 页面初始化 options为页面跳转所带来的参数
+  },
+  onReady: function() {
+    // 页面渲染完成
+  },
+  onShow: function() {
+    // 页面显示
+  },
+  onHide: function() {
+    // 页面隐藏
+  },
+  onUnload: function() {
+    // 页面关闭
+  },
+  usernameInput: function(e) {
+    this.setData({
+      userName: e.detail.value
+    })
+  },
+  passwordInput: function(e) {
+    this.setData({
+      password: e.detail.value
+    })
+  },
+
+  // 登录提交
+  submit: function(e) {
+    var that = this
+    var passwordMd5 = &#39;&#39;
+    if (that.data.userName === &quot;&quot; || that.data.userName === null || that.data.password === &quot;&quot; || that.data.password === null) {
+
+      that.setData({
+        showTopTips: true,
+        tips: &#39;用户名或密码不能为空&#39;
+      })
+
+      return false;
+    } else {
+      that.setData({
+        showTopTips: false,
+        hide: false,
+      })
+
+      wx.login({
+        success: function(res) {
+          // 密码MD5加密
+          passwordMd5 = util.hexMD5(that.data.password);
+          var wxcode = res.code
+          wx.request({
+            url: getApp().globalData.host + &#39;login&#39;,
+            header: {
+              &quot;Content-Type&quot;: &quot;application/json&quot;
+            },
+            method: &quot;GET&quot;,
+            data: {
+              username: that.data.userName,
+              password: passwordMd5,
+              wxcode: wxcode
+            },
+            success: function(res) {
+              that.setData({
+                hide: true
+              })
+              if (res.data.status === 1) {
+                wx.setStorageSync(&#39;userUuid&#39;, res.data.data.userUuid),
+                  wx.setStorageSync(&#39;userName&#39;, res.data.data.userName),
+                  wx.setStorageSync(&#39;userNum&#39;, res.data.data.userNum),
+                  wx.setStorageSync(&#39;factoryUuid&#39;, res.data.data.factoryUuid)
+                wx.setStorageSync(&#39;factoryName&#39;, res.data.data.factoryName)
+
+
+              } else {
+                // 失败提示
+                that.setData({
+                  showTopTips: true,
+                  tips: res.data.msg
+                })
+              }
+            }
+          })
+        }
+      })
+    }
+  },
+
+  logout: function(e) {
+    wx.setStorageSync(&#39;userUuid&#39;, &#39;&#39;),
+      wx.setStorageSync(&#39;userName&#39;, &#39;&#39;),
+      wx.setStorageSync(&#39;userNum&#39;, &#39;&#39;),
+      wx.setStorageSync(&#39;factoryName&#39;, &#39;&#39;),
+      wx.setStorageSync(&#39;factoryUuid&#39;, &#39;&#39;),
+
+      wx.navigateBack({
+        delta: getCurrentPages().length - 1, // 回退前 delta(默认为1) 页面
+        success: function(res) {
+          // success
+        },
+        fail: function(res) {
+          // fail
+        },
+        complete: function(res) {
+          // complete
+        }
+      })
+  },
+
+  goBack() {
+    wx.navigateBack({
+
+    })
+  }
+
+})
+</code></pre>
+
+<p>修改app.wxss</p>
+
+<pre><code class="language-text">
+/**app.wxss**/
+@import &#39;style/weui.wxss&#39;;
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.page__hd {
+    padding: 40px;
+}
+.page__bd {
+    padding-bottom: 40px;
+}
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page__ft{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.page__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page__desc {
+    margin-top: 5px;
+    color: #888888;
+    text-align: left;
+    font-size: 14px;
+}
+
+</code></pre>
+
+<p>编译效果：</p>
+
+<p><img src="http://youdao.mikezz.cn/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190415003822.png" alt="image"/></p>
+
+<p>源码：</p>
+
+<p><a href="https://github.com/fungkamwah/wxapp_demo">https://github.com/fungkamwah/wxapp_demo</a></p>
+
+
+		</div>
+
+		
+
+	</article>
+  
+	<div class="pagination">
+	
+<a href="archives.html">Blog Archives</a>
+	 
+	    
+	</div>
+</div>
+ <aside class="sidebar"> 
+
+	<section>
+	  <h1>Categories</h1>
+	  <ul id="recent_posts">
+	  
+	        
+	      </li>
+	   
+	  </ul>
+	</section>
+	<section>
+	  <h1>Recent Posts</h1>
+	  <ul id="recent_posts">
+	  
+	      
+		      <li class="post">
+		        <a href="15572089105221.html">小程序开发准备</a>
+		      </li>
+	     
+	  
+	      
+		      <li class="post">
+		        <a href="15572089698783.html">第一个小程序</a>
+		      </li>
+	     
+	   
+	  </ul>
+	</section>
+	
+</aside> </div></div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 -  -
+  <span class="credit">Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; Theme by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+
+  
+    
+
+
+
+
+</body>
+</html>
